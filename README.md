@@ -9,32 +9,32 @@ https://git-scm.com/downloads
 # SCENES
 
 - [x] Você deseja criar pontos na história da produção do seu projeto.
-    - git init (iniciar repositório onde será guardado as alterações do projeto)
-    - git add ARQUIVO (adiciona um ponto na história)
-    - git commit -m "first commit" (leva o ponto criado até o repositório)
+    - git init _iniciar repositório onde será guardado as alterações do projeto_
+    - git add ARQUIVO _adiciona um ponto na história_
+    - git commit -m "first commit" _leva o ponto criado até o repositório_
 - [x] Você deseja verificar mudanças feitas no seu projeto.
-    - git log (mostra todos os pontos criados)
-    - git status (mostra o status das alterações do projeto)
-    - git show (mostra o último ponto na história)
-    - git show IDDOCOMMIT (mostra um ponto específico)
+    - git log _mostra todos os pontos criados_
+    - git status _mostra o status das alterações do projeto_
+    - git show _mostra o último ponto na história_
+    - git show IDDOCOMMIT _mostra um ponto específico_
 
 - [x] Você começa uma nova funcionalidade no seu projeto, sem estragar o que foi feito.
-    - git branch (mostra todas as ramificações)
-    - git branch NOMEDABRANCH (cria uma nova ramificação)
-    - git checkout NOMEDABRANCH (alterna entre as ramificações)
-    - git checkout -b NOMEDABRANCH (cria e alterna para a nova ramificação)
+    - git branch _mostra todas as ramificações_
+    - git branch NOMEDABRANCH _cria uma nova ramificação_
+    - git checkout NOMEDABRANCH _alterna entre as ramificações_
+    - git checkout -b NOMEDABRANCH _cria e alterna para a nova ramificação_
 - [x] Você adiciona as novas funcionalidades ao seu projeto em produção.
-    - git merge NOMEDABRANCH (une duas ramificações em uma)
+    - git merge NOMEDABRANCH _une duas ramificações em uma_
 - [x] Você quer deletar a branch da nova funcionalidade, depois de aplicar em seu projeto.
-    - git branch -D NOMEDABRANCH (deleta uma ramificação)
+    - git branch -D NOMEDABRANCH _deleta uma ramificação_
 
 - [x] Colocar o projeto na nuvem.
-    - git push -u origin master URLDOREPOSITORIOREMOTO (envia o projeto para um repositório remoto e cria a ramificação master)
-    - git config credential.helper store (armazena as credencias do repositório remoto)
-    - git remove -v (mostra todos os repositórios remotos)
+    - git push -u origin master URLDOREPOSITORIOREMOTO _envia o projeto para um repositório remoto e cria a ramificação master_
+    - git config credential.helper store _armazena as credencias do repositório remoto_
+    - git remove -v _mostra todos os repositórios remotos_
 
 - [x] Você vai pegar um projeto já iniciado, para trabalhar com o time.
-    - git clone URLDOREPOSITORIOREMOTO (clona um repositório remoto para a máquina local)
+    - git clone URLDOREPOSITORIOREMOTO _clona um repositório remoto para a máquina local_
 - [x] Você precisa resolver um conflito.
     - git checkout -b test
     - nano arquivo.html
@@ -46,7 +46,7 @@ https://git-scm.com/downloads
     - git merge test
     - git commit -am "conflict fixed"
 - [x] Antes de enviar a resolução, precisamos atualizar o projeto local.
-    - git pull (atuliza o repositório local com o remoto)
+    - git pull _atuliza o repositório local com o remoto_
 
 - [x] Você precisa voltar um arquivo para um determinado momento da linha do tempo.
     - git log
