@@ -6,7 +6,7 @@ Guia prático para iniciantes.
 
 https://git-scm.com/downloads
 
-# DESAFIOS
+# DESAFIOS E RESOLUÇÕES
 
 - [x] Você deseja criar pontos na história da produção do seu projeto.
     - git init _iniciar repositório onde será guardado as alterações do projeto_
