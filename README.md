@@ -53,7 +53,7 @@ https://git-scm.com/downloads
     - git checkout IDDOCOMMIT -- arquivo.html
     - git commit -am "restore arquivo.html"
 - [x] Você precisa recuperar algo deletado.
-    - rm lesson1/arquivo.html
+    - rm arquivo.html
     - git commit -am "delete arquivo.html"
     - git log
     - git checkout IDDOCOMMIT -- arquivo.html
